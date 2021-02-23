@@ -36,7 +36,7 @@ botones2.forEach(element => {
 
 
 function ChangePage(id) {
-    console.log(`views/${id}.html`)
+    // console.log(`views/${id}.html`)console.log(`views/${id}.html`)
     var xhttp = new XMLHttpRequest(); 
     if (id == "") {
       document.getElementById("index").innerHTML = "";
@@ -49,7 +49,7 @@ function ChangePage(id) {
         document.getElementById("index").innerHTML = this.responseText;
       }
     };
-    xhttp.open("GET",`/views/${id}.html`, true);
+    xhttp.open("GET",`./views/${id}.html`, true);
     xhttp.send();
  
 }
