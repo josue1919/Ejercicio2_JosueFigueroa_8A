@@ -1,0 +1,18 @@
+ body{
+
+
+    height: 100%;
+   
+    padding: 0;
+    margin: 0; 
+   
+}
+
+.Fondo{
+    background-repeat: no-repeat;
+    background: url('./img/fondo.jpg') no-repeat center center fixed ;
+    background-size: 100% 100%;
+    /* filter:blur(1.3px); */
+    height: 100vh;
+    width: 100%;
+}
