@@ -36,7 +36,7 @@ botones2.forEach(element => {
 
 
 function ChangePage(id) {
-    console.log(`/views/${id}.html`)
+    console.log(`./views/${id}.html`)
     var xhttp = new XMLHttpRequest(); 
     if (id == "") {
       document.getElementById("index").innerHTML = "";
